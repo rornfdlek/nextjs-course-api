@@ -17,7 +17,7 @@ function handler(req, res) {
         const feedbackText = req.body.text;
 
         const newFeedback = {
-            id: new Date().toISOString,
+            id: new Date().toISOString(),
             email: email,
             text: feedbackText
         }
