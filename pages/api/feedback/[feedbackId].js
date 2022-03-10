@@ -1,4 +1,4 @@
-import {buildFeedbackPath, extractFeedback} from './feedback';
+import {buildFeedbackPath, extractFeedback} from '.';
 
 function handler(req, res) {
     // if(req.method === "POST") { // DELETE, ... 등 모든 req 처리 가능 
